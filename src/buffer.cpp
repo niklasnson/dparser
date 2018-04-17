@@ -7,6 +7,6 @@ Buffer::Buffer(Fileio * fileio) {
 Buffer::~Buffer (void) {
 }
 
-auto Buffer::get_size (void) {
-  buff_v.size(); 
+int Buffer::stats_wordcount (void) {
+  return buff_v.size();   
 }

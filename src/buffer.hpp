@@ -9,9 +9,9 @@
 
 class Buffer {
   public: 
-    Buffer(Fileio * fileio); 
-    ~Buffer();
-    auto get_size(); 
+    Buffer (Fileio * fileio); 
+    ~Buffer ();
+    int stats_wordcount (void);
   private: 
     std::vector<std::string> buff_v; 
 };
